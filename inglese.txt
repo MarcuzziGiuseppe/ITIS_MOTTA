@@ -1,0 +1,96 @@
+<fermaStampa>
+Press any key to continue
+</fermaStampa>
+<introduzione>
+.__    .__         .__                                                                          
+|  |__ |__| ______ |  | _____  ___.__. ___________                                              
+|  |  \|  | \____ \|  | \__  \<   |  |/ __ \_  __ \                                             
+|   Y  \  | |  |_> >  |__/ __ \\___  \  ___/|  | \/                                             
+|___|  /__| |   __/|____(____  / ____|\___  >__| /\                                             
+     \/     |__|             \/\/         \/     )/                                             
+.__          __ /\               .__                         .__  __  .__                       
+|  |   _____/  |)/ ______ ______ |  | _____  ___.__. __  _  _|__|/  |_|  |__     _____   ____   
+|  | _/ __ \   __\/  ___/ \____ \|  | \__  \<   |  | \ \/ \/ /  \   __\  |  \   /     \_/ __ \  
+|  |_\  ___/|  |  \___ \  |  |_> >  |__/ __ \\___  |  \     /|  ||  | |   Y  \ |  Y Y  \  ___/  
+|____/\___  >__| /____  > |   __/|____(____  / ____|   \/\_/ |__||__| |___|  / |__|_|  /\___  > 
+          \/          \/  |__|             \/\/                            \/        \/     \/  
+</introduzione>
+<menu>
+Game menu':
+--> 1) Play = 1
+--> 2) Manual = 2
+--> 3) AI = 3
+--> 4) Replay = 4
+--> 5) Creators = 5
+--> 6) Language = 6
+--> 0) Exit form the program = 0
+When you are ready press the corrisponding number
+</menu>
+<regole>
+In this game to let move Snake you have to press one of this 4 keys:
+--> 1) w = Go up 
+--> 2) s = Go down
+--> 3) a = Go left
+--> 4) d = Go right
+When you're playing press 'q' to return to game menu
+</regole>
+<campo>
+Would you like to insert the labyrinth by hand
+ot would you like to let the comuter generate it?
+--> 1) By hand
+--> 2) generating
+Press the corrisponding number
+</campo>
+<campo2>
+Insert the height of the labyrinth
+</campo2>
+<campo3>
+Insert the lenght of the labyrinth
+</campo3>
+<campo4>
+Insert the labyrinth
+(I suggest you to insert completely the labyrinth by CTRL-C and CTRL-V)
+</campo4>
+<IA>
+Pess any key to make start the AI
+</IA>
+<IA2>
+Is now calculating the path to coplating the labirinth
+</IA2>
+<partecipanti>
+Editors:
+Marcuzzi Giuseppe 894698
+Campagnolo Alberto 897569
+</partecipanti>
+<sceltaErrata>
+Wrong chose
+
+</sceltaErrata>
+<direzioneNonConsentita>
+Direction not allowed cause you would hit the wall or go off the map
+</direzioneNonConsentita>
+<vittoriaGioco>
+Congratulation, you arrived at the end of the labirinth
+Congratulation you win
+</vittoriaGioco>
+<lingue>
+Chose the language
+--> 1) Italian = 1
+--> 2) English = 2
+</lingue>
+<replay>
+You have:
+</replay>
+<replay2>
+replay available,
+Peess the corrisponding number and press enter
+</replay2>
+<replay3>
+Sorry but there is no available replay.
+Play the game by yourself or let the AI do it for you.
+</replay3>
+<replay4>
+Choose interaction mode:
+--> 1) Press any key for the next move
+--> 2) Enable automatic mode
+</replay4>

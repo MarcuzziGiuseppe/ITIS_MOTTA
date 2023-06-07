@@ -1,0 +1,95 @@
+<fermaStampa>
+Premi un tasto per continuare
+</fermaStampa>
+<introduzione>
+       .__                       .__                                                                  
+  ____ |__|____    ____   ______ |  | _____  ___.__. ___________                                      
+_/ ___\|  \__  \  /  _ \  \____ \|  | \__  \<   |  |/ __ \_  __ \                                     
+\  \___|  |/ __ \(  <_> ) |  |_> >  |__/ __ \\___  \  ___/|  | \/                                     
+ \___  >__(____  /\____/  |   __/|____(____  / ____|\___  >__| /\                                     
+     \/        \/         |__|             \/\/         \/     )/                                     
+  _____                    .__                                               .__                      
+_/ ____\____    ____  ____ |__|____    _____   ____    __ __  ____      ____ |__| ____   ____  ____   
+\   __\\__  \ _/ ___\/ ___\|  \__  \  /     \ /  _ \  |  |  \/    \    / ___\|  |/  _ \_/ ___\/  _ \  
+ |  |   / __ \\  \__\  \___|  |/ __ \|  Y Y  (  <_> ) |  |  /   |  \  / /_/  >  (  <_> )  \__(  <_> ) 
+ |__|  (____  /\___  >___  >__(____  /__|_|  /\____/  |____/|___|  /  \___  /|__|\____/ \___  >____/  
+            \/     \/    \/        \/      \/                    \/  /_____/                \/        
+</introduzione>
+<menu>
+Menu' di gioco:
+--> 1) Giocare = 1
+--> 2) Regole = 2
+--> 3) IA = 3
+--> 4) Replay = 4
+--> 5) Partecipanti = 5
+--> 6) Lingua = 6
+--> 0) Esci dal programma = 0
+quando hai scelto premi il numero corrispondente
+</menu>
+<regole>
+In questo gioco Snake per far muovere Snake bisonga premere uno dei seguanti 4 tasti:
+--> 1) w = Vai in alto 
+--> 2) s = Vai in basso
+--> 3) a = Vai a sinistra
+--> 4) d = Via a destra
+Mentre stai giocando premi il tasto 'q' per tornare al menu' di gioco
+</regole>
+<campo>
+Vuoi inserire il labirinto di gioco a mano oppure vuoi farlo generare da 0?
+--> 1) A mano
+--> 2) Generare
+Premere il numero corrispondente
+</campo>
+<campo2>
+Inserisci l'altezza del labirinto
+</campo2>
+<campo3>
+Inserisci la larghezza del labirinto
+</campo3>
+<campo4>
+Inserisi il labirinto
+(Ti sugerisco di inserire completamente il labirinto tramite CTRL-C e CTRL-V)
+</campo4>
+<IA>
+Premi un tasto per far iniziare l'IA
+</IA>
+<IA2>
+Sta calcolando il percorso per completare il labirinto
+</IA2>
+<partecipanti>
+Editors:
+Marcuzzi Giuseppe 894698
+Campagnolo Alberto 897569
+</partecipanti>
+<sceltaErrata>
+Scelta errata
+
+</sceltaErrata>
+<direzioneNonConsentita>
+Direzione non Consentita perche' andresti contro il muro o andresti fuori dalla mappa
+</direzioneNonConsentita>
+<vittoriaGioco>
+Sei arrivato alla fine del percorso
+Complimenti hai vinto
+</vittoriaGioco>
+<lingue>
+Scegli la lingua del gioco
+--> 1) Italiano = 1
+--> 2) Inglese = 2
+</lingue>
+<replay>
+Hai a diposizione:
+</replay>
+<replay2>
+replay,
+Premi il numero di quello che vuoi vedere e poi invio
+</replay2>
+<replay3>
+Mi dispiace ma non ci sono replay disponibili.
+Fai te una partita o fanne fare una all' IA.
+</replay3>
+<replay4>
+Scegli la modalita' di interazione che preferisci:
+--> 1) Premi un tasto qualsiasi per fare la mossa successiva
+--> 2) Visualizza in modo automatico
+</replay4>
