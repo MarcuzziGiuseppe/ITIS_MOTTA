@@ -1,0 +1,687 @@
+<inizio>
+Dungeons & Dragons (D&D) (in c++)
+made by Giuseppe Marcuzzi
+Premi un tasto per continuare
+</inizio>
+
+<menu>
+--> 1) Giocare = 1
+--> 2) Manuale = 2
+--> 3) Test lancio dadi = 3
+--> 4) Lingua    (da finire)
+--> 5) Ringraziamenti = 5
+--> 0) Esci dal programma = 0
+quando hai scelto premi il numero corrispondente
+</menu>
+
+<sceltaSbaglaita>
+scelta non valida
+Premi un tasto per continuare
+</sceltaSbaglaita>
+
+<seiSicuro>
+Sei sicuro?
+Si=1 No=0
+</seiSicuro>
+
+<premiUnTasto>
+Premi un tasto qualunque per continuare
+</premiUnTasto>
+
+<ringraziamenti>
+Un grandissimo ringraziamento a:
+
+Arbjo Guza: Tutto quello che riguarda i combattimenti"
+
+Paola Trevisiol: Controllo e correzione del testo
+     (eventuali errori testuali/lessicali sono colpa di Marcuzzi Giuseppe).
+
+Nico/Okin: Storia base dei 2 portoni
+
+Per avermi supportato ma sopratutto sopportato per tutto il tempo in cui mi hanno aiutato.
+Premi un tasto per continuare
+</ringraziamenti>
+
+
+<attaccaSchiva>
+--> 1) attacca
+--> 2) schiva
+</attaccaSchiva>
+
+<combattimento1>
+
+(urlo di attacco)(tipo arrrrrrrgh)
+(Immaginatelo)
+</combattimento1>
+
+<combattimento2>
+Hai colpito il mostro.
+Gli rimangono ancora 
+</combattimento2>
+
+<combattimento3>
+
+Hai provato ad attaccarlo ma con uno scatto e' riuscito a schivarti.
+E ora ti sta per attaccare.
+Premi un tasto per continuare
+</combattimento3>
+
+<combattimento4>
+
+Dopo aver attaccato sei rimasto immobile,
+ed in quel momento e' riuscito a colpirti.
+Ti rimangono 
+</combattimento4>
+
+<combattimento5>
+
+Ha provato ad attaccarti ma con uno scatto sei riuscito a schivarlo.
+Premi un tasto per continuare
+</combattimento5>
+
+<combattimento6>
+
+Hai colpito 1 dei goblin.
+Gli rimangono ancora
+</combattimento6>
+
+<combattimento7>
+
+Hai provato ad attaccarne 1 ma con uno scatto e' riuscito a schivarti.
+E ora ti stanno per attaccare.
+Premi un tasto per continuare
+</combattimento7>
+
+<combattimento8>
+
+Dopo aver attaccato sei rimasto immobile,
+ed in quel momento 1 goblin e' riuscito ad attaccarti.
+Ti rimangono
+</combattimento8>
+
+<combattimento9>
+GAME OVER, vedi la donna che viene attaccata dai goblin.
+Senti le forze abbandonarti e subito ti ritrovi accasciato a terra, morto.
+Finale 6 di 8
+Premi un tasto qualunque per continuare
+</combattimento9>
+
+<combattimento10>
+Hai vinto, salvi la donna.
+Insieme riuscite ad uscire dalla casa che sta crollando indenni.
+Lei si innamora di te e tu ricambi.
+Lasci la tua gilda per sposarla.
+La sua famiglia non e' molto d'accordo a causa del tuo passato, ma non ostacola l'unione.
+Tua suocera si trasferisce da voi e continua a mancarti di rispetto e maltrattarti.
+In un raptus di rabbia, la uccidi; tua moglie prova invano a fermarti.
+Terrorizzata, ti prega di non uccidere anche lei."
+</combattimento10>
+
+<combattimento11>
+--> 1) uccidila
+--> 2) non ucciderla
+</combattimento11>
+
+<combattimento12>
+La uccidi e scappi.
+Provi a fare ritorno presso la tua gilda, ma ti accusano di essere un traditore e cercano di ucciderti.
+Riesci a fuggire e vivi il resto della tua vita come un vagabondo,
+tormentato dal rimorso per aver ucciso la donna che amavi.
+Finale 7 di 8
+Premi un tasto qualunque per continuare
+</combattimento12>
+
+<combattimento13>
+Non la uccidi.
+Continuate a vivere insieme, e dopo pochi mesi lei resta incinta di te.
+Lei pero' ha ancora paura che tu possa farle del male, i rapporti sono tesi e litigate spesso.
+Decidi di abbandonarla a se stessa e per il resto della tua vita viaggerai per il mondo,
+rimpiangendo di aver lasciato lei e tuo figlio.
+Finale 8 di 8
+Premi un tasto qualunque per continuare
+</combattimento13>
+
+<combattimento14>
+Hai colpito il Demone Rosso.
+Gli rimangono ancora
+</combattimento14>
+
+<combattimento15>
+
+Dopo aver attaccato sei rimasto immobile,
+ed in quel momento ti ha caricato provocandoti tanti danni.
+Ti rimangono
+</combattimento15>
+
+<combattimento16>
+
+</combattimento16>
+
+<combattimento17>
+
+</combattimento17>
+
+<combattimento18>
+
+</combattimento18>
+
+
+
+
+
+<creazionePg1>
+Partiamo con il dare un nome al tuo PG
+N.B. deve essere senza spazi.
+Quando hai finito di scrivere il nome premi invio
+</creazionePg1>
+
+<creazionePg2>
+
+Bene dunque questo sara' il nome del tuo PG: 
+</creazionePg2>
+
+<creazionePg3>
+
+sei sicuro di questo nome?
+Si=1 No=0
+
+</creazionePg3>
+
+<creazionePg4>
+Ora dobbiamo scegliere una classe fra le seguenti classi.
+se vuoi vedere i diversi modificatori di statistica di ogni razza
+premi r (deve essere in minuscolo)
+Classi:
+1)-> Barbaro
+2)-> Guerriero
+3)-> Monaco
+4)-> Paladino
+5)-> Ranger
+6)-> Ladro
+7)-> Stregone
+8)-> Mago
+Premi il numero della classe scelta 
+
+</creazionePg4>
+
+<creazionePg5>
+Bene dunque tu sarai un:
+</creazionePg5>
+
+<creazionePg6>
+Ora dobbiamo scegliere una razza fra le seguenti.
+Le razze andranno a modificare le statistiche;
+Valuta attentamente quale razza scegliere
+se vuoi vedere i modificatori di statistica di ogni razza
+premi r (deve essere in minuscolo)
+Razze:
+1)-> Nano
+2)-> Elfo
+3)-> Gnomo
+4)-> Mezzelfo
+5)-> Mezzorco
+6)-> Halfling
+7)-> Umano
+Premi il numero della classe scelta 
+
+</creazionePg6>
+
+<creazionePg7>
+Sei giunto nella parte piu' facile' della creazione di un PG;
+Per capire come il programma calcoli le tue statistiche, puoi premere r ed accedere alla sezione 'Regole per creare un PG'
+altrimenti premi un tasto qualunque.
+Se non ti fidi del generatore di numeri, puoi testarlo nel menu' principale, ma solo al termine dell'attuale sessione di gioco.
+Bene dopo questo lungo discorso puoi vedere le tue statistiche.
+N.B. I tuoi valori andranno da un minimo di 10 in su,
+ma ti avviso che le caratteristiche della razza del tuo personaggio potrebbero portarli al di sotto del 10.
+
+
+</creazionePg7>
+
+<creazionePg8>
+Alla fine le tue statistiche sono:
+
+</creazionePg8>
+
+<creazionePg9>
+visto che hai deciso di essere un:
+</creazionePg9>
+
+<creazionePg10>
+puoi scegliere che statistica aumentare di 2 punti.
+queste sono le statistiche attuali.
+Statistiche:
+
+</creazionePg10>
+
+<creazionePg11>
+Hai la costituzuione gia' al massimo, non puoi aumentarla ulteriormente.
+Premi un tasto per continuare.
+</creazionePg11>
+
+<creazionePg12>
+Hai scelto di potenziare:
+</creazionePg12>
+
+
+
+<regoleGioco1>
+--> 1) Regole per crare un PG (personaggio) = 1
+--> 2) Regole per il combattimento = 2
+--> 0) Torna al menu' precendente = 0
+quando hai scelto premi il numero corrispondente
+</regoleGioco1>
+
+<regolePg1>
+--> 1) Classe = 1
+--> 2) Razza = 2
+--> 3) Statistiche e calcolo statistiche = 3
+--> 0) Indietro = 0
+quando hai scelto premi il numero corrispondente
+</regolePg1>
+
+<regolePg2>
+Scegli una delle seguenti classi: "
+N.B. Valuta attentamente quale classe scegliere,
+poiche' ogni classe ha una determinata arma.
+Essa, insieme alle tue statistiche, decidera' quanto danno infliggerai,
+le classi, insieme alle tue statistiche, decideranno anche quanta vita avra' il tuo PG
+
+Barbaro: Forte e non civilizzato. I barbari sono considerati guerrieri feroci.
+Ascia: 20 + statistica, Vita: 30 + statistica
+
+Guerriero: Coraggioso e deciso.
+I guerrieri sono abilissimi nell'uso delle armi e delle armature.
+Spada lunga: 18 + statistica, Vita: 32 + statistica
+
+Monaco: Maestro delle arti marziali.
+I monaci addestrano mente e corpo all'attacco e alla difesa.
+Pugni: 15 + statistica, Vita: 35 + statistica
+
+Paladino: Difensore del bene e della giustizia.
+I paladini sono cavalieri devoti a una divinita'.
+Martello: 18 + statistica, Vita: 32 + statistica
+
+Ranger: Esperto degli animali e della natura.
+I ranger inseguono e danno la caccia ai nemici.
+Spada corta: 15 + statistica, Vita: 35 + statistica
+
+Ladro: Assassino furtivo.
+I ladri sono criminali astuti e vedette abili.
+Pugnali: 15 + statistica, Vita: 35 + statistica
+
+Stregone: Nato con il dono della magia.
+Gli stregoni sono in grado di controllare energie antiche e insolite.
+Bastone magico: 12 + statistica, Vita 38 + statistica
+
+Mago: Ha dedicato tutta la vita allo studio della magia.
+Anni di studi consentono ai maghi di utilizzare poteri magici incredibili.
+Grimorio: 13 + statistica, Vita: 37 + statistica
+
+per riaprire il menu' premi un tasto qualunque
+</regolePg2>
+
+<regolePg3>
+Dopo aver scelto una classe dovrai scegliere una razza tra le seguenti: 
+N.B. Valuta attentamente quale razza scegliere, poiche' essa ti portera' dei vantaggi e degli svantaggi rispetto alle statistiche del tuo personaggio.
+
+Nani: Bassi, tozzi, resistenti e forti. Sono molto legati alla terra. I nani spesso vivono nelle montagne e nel sottosuolo.
+Modificatori delle statistiche: +2 Costituzione, +2 Saggezza, -2 Carisma.
+
+Elfi: Alti, longevi, appaiono freddi e distaccati, ma sono molto legati alla natura.
+Gli elfi vivono in armonia con il mondo naturale che li circonda.
+Modificatori delle statistiche: +2 Destrezza, +2 Intelligenza, -2 Costituzione.
+
+Gnomi: Misteriosi, bizzarri e alla ricerca di avventura. Gli gnomi sono la razza comune piu' piccola.
+Modificatori delle statistiche: +2 Costituzione, -2 Carisma, +2 Forza.
+
+Mezzelfi: Solitari ma cordiali, sono longevi e posseggono movenze aggraziate.
+I mezzelfi non sono molto numerosi e hanno la tendenza a vagabondare, perche' non hanno una vera patria.
+Modificatori delle statistiche: +2 a un punteggio di caratteristica.
+
+Mezzorchi: Independenti, forti e malvisti. I mezzorchi sono considerati mostri dalla gente comune, sono alti e muscolosi.
+Modificatori delle statistiche: +2 a un punteggio di caratteristica -2 Carisma.
+
+Halfling: Ottimisti, allegri, curiosi e di bassa statura. In media sono alti poco meno di un metro, sono agili ma non hanno una grande forza.
+Modificatori delle statistiche: +2 Destrezza, +2 Carisma, ?2 Forza.
+
+Umani: Capaci di adattarsi a tutte le situazioni, ambiziosi ed equilibrati. Gli umani sono la razza dominante, con grande varieta' di culture e caratteristiche fisiche.
+Modificatori delle statistiche: +2 a un punteggio di caratteristica.
+
+per riaprire il menu' premi un tasto qualunque
+</regolePg3>
+
+<regolePg4>
+ogni PG ha delle statistiche:
+Forza (For). La misura della forza fisica.
+E' importante per i personaggi che combattono corpo a corpo, come guerrieri, monaci e paladini.
+
+Destrezza (Des). La misura dell'agilit?, dell'equilibrio e dei riflessi.
+E' importante per i ladri, per i personaggi che indossano armature leggere o medie e per chi attacca a distanza (con archi e fionde, ad esempio).
+
+Costituzione (Cos). La misura di salute e tempra.
+Aumenta i punti ferita del personaggio che, quando arrivano a zero, portano alla perdita di coscienza o al decesso.
+
+Intelligenza (Int). La misura della conoscenza.
+E' Importante per i maghi e le classi che devono apprendere informazioni o avere capacit? logiche, come i paladini.
+
+Saggezza (Sag). La misura del buonsenso.
+Contribuisce alla consapevolezza e alla forza di volonta'. Importante per ranger
+
+Carisma (Car). La misura del fascino.
+Un alto punteggio in questa caratteristica rende il personaggio piu' gradevole, piu' bello e dalle migliori capacita' di comando.
+E' importante per paladini e stregoni.
+per riaprire il menu' premi un tasto qualunque
+</regolePg4>
+
+<regolePg5>
+Calcolo delle statistiche del PG:
+Il programma lancer? 4 dadi da sei facce e sommer? i valori risultanti;
+le somme totali costituiranno i valori che verranno assegnati alle tue statistiche.
+Se hai dubbi sul metodo di calcolo dei valori,
+puoi fare un test nella sezione 'Test lancio dadi' del men? principale.
+per riaprire il menu' premi un tasto qualunque
+</regolePg5>
+
+<regoleCombattimento1>
+Il combattimento e' diviso a turni:" << endl
+Avrai 2 scelte: attacca o schiva" << endl
+Se scegli di attaccare, verra' lanciato un dado in base al quale si decidera' se hai colpito il tuo avversario;
+se il tuo avversario non muore ti attacchera' nel medesimo modo.
+Se scegli di schivare, il tuo avversario attacchera' per primo,
+ma se riuscirai a colpirlo gli infliggerai un danno maggiore,
+anche se dopo ti attacchera' per una seconda volta.
+Per riaprire il menu' premi un tasto qualunque
+</regoleCombattimento1>
+
+
+
+<inizioStoria1>
+Finalmente siamo giunti all' effettivo inizio della avventura.
+sei pronto?
+Si=1 No=0
+</inizioStoria1>
+
+<inizioStoria2>
+
+OK, Ottimo allora iniziamo.
+Premi un tasto qualunque per continuare
+</inizioStoria2>
+
+<inizioStoria3>
+
+Pazienza.
+Ormai iniziamo.
+Premi un tasto qualunque per continuare
+</inizioStoria3>
+
+
+
+<storiaPortoni1>
+Sei un membro della gilda dei mercenari.
+Sei stato contattato da una famiglia nobiliare per investigare all'interno della magione di una loro ricca cugina, di cui non si hanno notizie da una settimana.
+Durante l'esplorazione della magione, ti imbatti in un ampio salone e decidi di entrarci.
+All'improvviso, alle tue spalle senti un forte tonfo. Ti volti e vedi la porta chiudersi.
+Decidi di continuare ad avanzare, e noti due grandi portoni in fondo alla stanza, uno a destra e uno a sinistra.
+--> 1) Avvicinati per esaminare le porte.
+--> 2) Prova ad entrare nel portone di sinistra.
+--> 3) Prova ad entrare nel portone di destra.
+</storiaPortoni1>
+
+<storiaPortoni2>
+
+Sono entrambi di un legno solido.
+Quello di destra sembra essere chiusa a chiave.
+Premi un tasto qualunque per continuare
+</storiaPortoni2>
+
+<storiaPortoni3>
+--> 1) Avvicinati per esaminare le porte.
+--> 2) Prova ad entrare nel portone di sinistra.
+--> 3) Prova ad entrare nel portone di destra.
+</storiaPortoni3>
+
+<storiaPortoni4>
+
+Sono entrambi di un legno solido.
+Quella di destra sembra essere chiusa a chiave.
+Premi un tasto qualunque per continuare
+</storiaPortoni4>
+
+<storiaPortoni5>
+--> 1) Prova ad entrare nel portone di sinistra.
+--> 2) Prova ad entrare nel portone di destra.
+</storiaPortoni5>
+
+<storiaPortoni6>
+Provi ad aprire il portone e a fatica ci riesci.
+Entri in un lungo corridoio.
+Il pavimento e' coperto da un tappeto rovinato, e noti tre porte alla tua destra e tre alla tua sinistra.
+Fai un respiro profondo, e senti un odore dolciastro che ti incuriosisce provenire da una delle porte.
+--> 1) Ascolta cosa ti succede intorno.
+--> 2) Indaga sull' odore dolciastro.
+--> 3) Prova ad aprire una delle porte.
+--> 4) Rifletti sulla vita.
+--> 5) Torna indietro.
+</storiaPortoni6>
+
+<storiaPortoni7>
+
+Ascoltando con attenzione senti una donna piangere ed implorare di essere liberata,
+ma senti anche nella stessa direzione qualcuno ridacchiare.
+Vuoi indagare?
+Si=1 No=0
+</storiaPortoni7>
+
+<storiaPortoni8>
+
+Inizi ad annusare l'aria cercando la fonte dell'odore, ma ben presto ti accorgi che si e' diffuso dappertutto.
+Decidi percio' di aprire una delle porte e indagare.
+
+</storiaPortoni8>
+
+<storiaPortoni9>
+
+Ti siedi per terra, con la schiena appoggiata al muro.
+Dopo pochi minuti ti addormenti, e ti risvegli, intontito.
+Sembra siano passate delle ore, ma perlomeno ti senti piu' riposato.
+</storiaPortoni9>
+
+<storiaPortoni10>
+Le urla della donna sono cessate, ma non te ne preoccupi.
+</storiaPortoni10>
+
+<storiaPortoni11>
+--> 1) Ascolta cosa ti succede intorno.
+--> 2) Indaga sull' odore dolciastro.
+--> 3) Prova ad aprire una delle porte.
+--> 4) Rifletti sulla vita.
+--> 5) Torna indietro.
+</storiaPortoni11>
+
+<storiaPortoni12>
+
+--> 1) Indaga sull' odore dolciastro.
+--> 2) Prova ad aprire una delle porte.
+--> 3) Rifletti sulla vita.
+--> 4) Torna indietro.
+</storiaPortoni12>
+
+<storiaPortoni13>
+
+--> 1) Indaghi sull' odore dolciastro.
+--> 2) Prova ad aprire una delle porte.
+--> 3) Riposati.
+--> 4) Torna indietro.
+</storiaPortoni13>
+
+<storiaPortoni14>
+Le urla della donna sono cessate, ma non te ne preoccupi.
+</storiaPortoni14>
+
+<storiaPortoni15>
+Devi decidere quale porta provare ad aprire.
+Puoi scegliere una delle seguenti porte
+--> 1) 1^ porta a sinistra
+--> 2) 2^ porta a sinistra
+--> 3) 3^ porta a sinistra
+
+--> 4) 1^ porta a destra
+--> 5) 2^ porta a destsra
+--> 6) 3^ porta a destra
+
+--> 7) Torna indietro
+</storiaPortoni15>
+
+<storiaPortoni16>
+
+Entri e vedi una sala da pranzo, con un tavolo imbandito di cibo appetitoso e un odore dolciastro che si spande per tutta la stanza.
+All'improvviso, spunta un anziano cuoco. 'Non pensavo di ricevere visite... Che fai qui?' chiede,
+per poi affermare, senza darti il tempo di rispondere: 'Beh, non importa, accomodati pure.' Ti fa un cenno con la mano, sedendosi a capotavola.
+Senza rendertene conto, ti trovi seduto al tavolo. 'Forza, mangia pure.', ti dice.
+--> 1) Mangi
+--> 2) Non mangi
+</storiaPortoni16>
+
+<storiaPortoni17>
+GAME OVER, senti le forze abbandonarti e subito ti ritrovi accasciato sul tavolo, morto.
+Finale 2 di 8
+Premi un tasto qualunque per continuare
+</storiaPortoni17>
+
+<storiaPortoni18>
+Ti alzi dal tavolo, e con un capogiro si svela ai tuoi occhi il vero aspetto della sala da pranzo.
+I muri e il tavolo sono sporchi di sangue, e i piatti sul tavolo sono pieni di budella viola.
+Il cuoco, rivelatosi essere un mostro, ti attacca.
+</storiaPortoni18>
+
+<storiaPortoni19>
+GAME OVER, senti le forze abbandonarti e subito ti ritrovi accasciato a terra, morto.
+Finale 3 di 8
+Premi un tasto qualunque per continuare
+</storiaPortoni19>
+
+<storiaPortoni20>
+Sei riuscito ad uccidere il cuoco.
+Cadi a terra stremato, ma cio' nonostante noti qualcosa di strano nelle tasche de cuoco,
+ti avvicini e noti che c'e' una chiave; nel dubbio decidi di prenderla.
+Premi un tasto qualunque per continuare
+</storiaPortoni20>
+
+<storiaPortoni21>
+Entri e vedi ancora il cuoco disteso, vicino al tavolo, morto.
+Premi un tasto qualunque per continuare
+</storiaPortoni21>
+
+<storiaPortoni22>
+
+Provi a spingere e a tirare ma non si apre quindi ci rinunci.
+Premi un tasto qualunque per continuare
+</storiaPortoni22>
+
+<storiaPortoni23>
+GAME OVER, vedi la donna che dovevi salvare smenbrata.
+In quel momento la casa inizia a crollare e tu rimani bloccato al suo interno.
+Resisti per qualche girono, per poi morire di inedia.
+Finale 5 di 8
+Premi un tasto qualunque per continuare
+</storiaPortoni23>
+
+<storiaPortoni24>
+GAME OVER, vedi la donna che dovevi salvare smenbrata.
+In quel momento la casa inizia a crollare e tu rimani bloccato al suo interno.
+Resisti per qualche girono, per poi morire di inedia.
+Finale 1 di 8
+Premi un tasto qualunque per continuare
+</storiaPortoni24>
+
+<storiaPortoni25>
+Entri nella stanza.
+Vedi in fondo la donna da salvare circondata da 5 goblin.
+Essi, dopo averti visto, iniziano a caricare per attaccarti.
+</storiaPortoni25>
+
+<storiaPortoni26>
+Esci da quello che sembra essere un labirinto.
+Subito ti trovi davanti un demone rosso con una grossa mannaia.
+Dopo qualche istante ti nota ed inizia subito a caricarti,
+devi decidere velocemnete cosa fare
+</storiaPortoni26>
+
+<storiaPortoni27>
+GAME OVER, senti le forze abbandonarti e subito ti ritrovi accasciato a terra, morto.
+Finale 4 di 8
+Premi un tasto qualunque per continuare
+</storiaPortoni27>
+
+<storiaPortoni28>
+Sei riuscito ad uccidere il Demone Rosso.
+Cadi a terra stremato, mentre davanti a te compare qualcosa di simile ad un altare.
+Vuoi avvicinarti per analizzarlo?
+Si=1 No=0
+</storiaPortoni28>
+
+<storiaPortoni29>
+Ti avvicini in modo sospettoso.
+Una volta raggiunto lo osservi e ne noti la somiglianza con un altare di chiesa.
+Girandoci attorno, noti al centro, nel punto dove si posiziona solitamente il prete, una porticina
+decidi di aprirla e dentro ci trovi una chiave arrugginita.
+All'inizio sei titubante all'idea di prenderla; poiche' non ti costa nulla, lo fai.
+Premi un tasto qualunque per continuare
+</storiaPortoni29>
+
+<storiaPortoni30>
+Te ne freghi, ti giri ed esci saltellando alla Heidi.
+Premi un tasto qualunque per continuare
+</storiaPortoni30>
+
+<storiaPortoni31>
+Entri vedi il Demone Rosso morto e disteso li' per terra e l'altare con la porticina aperta.
+Non noti nulla di particolare quindi decidi di uscire saltellando alla Heidi.
+Premi un tasto qualunque per continuare
+</storiaPortoni31>
+
+<storiaPortoni32>
+Vedi il Demone rosso morto e disteso li' perterra.
+C'e' ancora l'altare.
+Vuoi avvicinarti per analizzarlo?
+Si=1 No=0
+</storiaPortoni32>
+
+<storiaPortoni33>
+Ti avvicini in modo sospettoso.
+Una volta raggiunto lo osservi e ne noti la somiglianza con un altare di chiesa.
+Girandoci attorno, noti al centro, nel punto dove solitamente si mette il prete, una porticina
+decidi di aprirla e dentro ci trovi una chiave arrugginita.
+All'inizio sei titubante all'idea di prenderla; poiche' non ti costa nulla, lo fai.
+Premi un tasto qualunque per continuare
+</storiaPortoni33>
+
+<storiaPortoni34>
+Te ne freghi, ti giri ed esci saltellando alla Heidi.
+Premi un tasto qualunque per continuare
+</storiaPortoni34>
+
+<storiaPortoni35>
+
+Provi a spingere e a tirare ma non si apre quindi ci rinunci.
+Probablmente serve una chiave
+Premi un tasto qualunque per continuare
+</storiaPortoni35>
+
+<storiaPortoni36>
+
+Ti ritrovi in una stanza quadrata con Tre porte,
+una alla tua destra, una alla tua sinistra e una davanti a te.
+--> 1) Porta di sinistra
+--> 2) Porta centrale
+--> 3) Porta di destra
+</storiaPortoni36>
+
+<storiaPortoni37>
+
+Ti ritrovi in una stanza quadrata con Tre porte,
+una alla tua destra, una alla tua sinistra e una davanti a te.
+--> 2) Porta centrale
+--> 3) Porta di destra
+</storiaPortoni37>
